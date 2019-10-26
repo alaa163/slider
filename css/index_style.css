@@ -1,0 +1,113 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+
+.caption
+{
+    background-color: white;
+    position: absolute;
+    bottom: 7%;
+    padding: 10px;
+    width: 80%;
+    left: 10%
+}
+
+.lightBox-container
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    
+    padding-top: 7rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom:0 ;
+    display: none;
+}
+
+.lightBox
+{
+    height: 500px;
+    margin: auto;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%
+}
+
+
+#next
+{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 27px;
+}
+#prev
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 27px;
+}
+
+#close
+{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    font-size: 20px;
+}
+
+
+#next , #prev ,#close , .img-item
+{
+    cursor: pointer;
+}
+
+
+
+.show
+{
+    display: block;
+}
+
+.mybutton{
+    text-align: center;
+    margin: auto;
+}
+
+.mydive{
+    width:300px;
+    height: 300px;
+    background-color: bisque;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
